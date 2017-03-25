@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Random Quote Machine</title>
+		<meta charset="utf-8">
+		<link href="stylesheet.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="main.js"></script>
+		<script>window.twttr = (function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0],
+		    t = window.twttr || {};
+		  if (d.getElementById(id)) return t;
+		  js = d.createElement(s);
+		  js.id = id;
+		  js.src = "https://platform.twitter.com/widgets.js";
+		  fjs.parentNode.insertBefore(js, fjs);
+
+		  t._e = [];
+		  t.ready = function(f) {
+		    t._e.push(f);
+		  };
+
+		  return t;
+		}(document, "script", "twitter-wjs"));
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<center><h1 class="quote" id="title">Random Quote Machine</h1><h4 class="quote" id="mahlas">By Türkmen</h4></center>
+		</div>
+		<div id="main">
+			<center><p class="Quotation" id='the_quote'>The Quote</p><p class="Quotation" id="person">-The Person</p>
+			<br>
+			<button class="btn" onclick="changeQuote()">Get A New Quote</button></center>
+		</div><center>
+		<div id="twitterButton">
+			<!--<a onclick="tweetQuote()" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>-->
+			<a id="tweetQuote" href="https://twitter.com/intent/tweet?text=hello" class="share-button" data-size="large">Tweet</a>
+		</div></center>
+	</body>
+</html>
