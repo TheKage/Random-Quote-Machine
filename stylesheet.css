@@ -1,0 +1,75 @@
+body {
+	background-color: #000;
+	background-image: url("img/bg-img4.jpg");
+	background-repeat: no-repeat;
+	background-size: 1280px 810px;
+}
+
+#title {
+	font-size: 85px;
+}
+
+#mahlas {
+	font-size: 35px;
+	margin: -55px 0px 0px 650px;
+}
+
+.quote {
+	font-family: AudimatItalic;
+	font-weight: bold;
+	text-shadow: 2px 2px #ff0000;
+}
+
+.Quotation {
+	font-size: 30px;
+	font-family: Audimat;
+}
+
+#main {
+	margin: 100px 130px 0px 130px;
+}
+
+#twitterButton {
+	margin-top: 35px;
+}
+
+.btn {
+	border: 3px solid black;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 17px;
+	box-shadow: 0px 5px 5px 0px rgba(196, 13, 13, 0.3);
+}
+
+.btn:hover {
+	border: 3px solid black;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 17px;
+	box-shadow: 0px 5px 5px 0px rgba(196, 13, 13, 0.5);
+	background-color: black;
+	color: white;
+}
+
+#person {
+	margin-top: -20px;
+}
+
+.share-button {
+	background-color: rgb(12,122,191);
+	padding: 10px 15px;
+	border-radius: 4px;
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+}
+
+@font-face {
+	font-family: AudimatItalic;
+	src: url("fonts/audimat-bolditalic.otf");
+}
+
+@font-face {
+	font-family: Audimat;
+	src: url("fonts/audimat-regular.otf");
+}
